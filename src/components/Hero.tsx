@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="max-w-[1200px] mx-auto px-6">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-sm font-medium text-accent-light mb-8 animate-fade-in-up">
-          <span className="w-2 h-2 rounded-full bg-green shadow-[0_0_8px_rgba(0,227,150,0.2)] animate-pulse-dot" />
+          <span className="w-2 h-2 rounded-full bg-green shadow-[0_0_8px_rgba(140,241,249,0.4)] animate-pulse-dot" />
           Now in Early Access
         </div>
 
@@ -31,13 +31,13 @@ export default function Hero() {
         <div className="flex gap-4 justify-center flex-wrap animate-fade-in-up">
           <a
             href="https://dash.deepnano.dev"
-            className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-accent rounded-[16px] no-underline transition-all duration-200 shadow-[0_0_24px_rgba(108,92,231,0.3),0_4px_16px_rgba(108,92,231,0.3)] hover:bg-[#7c6ff0] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(108,92,231,0.3),0_6px_24px_rgba(108,92,231,0.4)]"
+            className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-accent rounded-[16px] no-underline transition-all duration-200 shadow-[0_0_24px_rgba(192,68,238,0.3),0_4px_16px_rgba(192,68,238,0.3)] hover:bg-[#d670f5] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(192,68,238,0.3),0_6px_24px_rgba(192,68,238,0.4)]"
           >
             Get Started Free
           </a>
           <a
             href="#pricing"
-            className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-text-primary border border-border-light rounded-[16px] bg-transparent no-underline transition-all duration-200 hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(108,92,231,0.1)]"
+            className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-text-primary border border-border-light rounded-[16px] bg-transparent no-underline transition-all duration-200 hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(192,68,238,0.1)]"
           >
             See Pricing
           </a>

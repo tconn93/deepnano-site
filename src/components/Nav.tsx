@@ -20,9 +20,7 @@ export default function Nav() {
     >
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2.5 font-extrabold text-xl tracking-tight text-text-primary no-underline">
-          <span className="w-[34px] h-[34px] rounded-[9px] bg-gradient-to-br from-accent via-cyan to-green flex items-center justify-center text-sm shadow-[0_0_20px_rgba(108,92,231,0.3)]">
-            ⚛
-          </span>
+          <img src="/deepnano-logo.jpg" alt="DeepNano" className="w-[34px] h-[34px] rounded-[9px] shadow-[0_0_20px_rgba(192,68,238,0.3)]" />
           DeepNano
         </a>
 
@@ -40,7 +38,7 @@ export default function Nav() {
           <li>
             <a
               href="https://dash.deepnano.dev"
-              className="inline-flex items-center px-4 py-2 text-sm font-semibold text-text-primary border border-border-light rounded-xl bg-transparent no-underline transition-all duration-200 hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(108,92,231,0.1)]"
+              className="inline-flex items-center px-4 py-2 text-sm font-semibold text-text-primary border border-border-light rounded-xl bg-transparent no-underline transition-all duration-200 hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(192,68,238,0.1)]"
             >
               Sign In
             </a>
@@ -48,7 +46,7 @@ export default function Nav() {
           <li>
             <a
               href="https://dash.deepnano.dev"
-              className="inline-flex items-center px-[18px] py-2 text-sm font-semibold text-white bg-accent rounded-xl no-underline transition-all duration-200 shadow-[0_0_24px_rgba(108,92,231,0.3),0_4px_16px_rgba(108,92,231,0.3)] hover:bg-[#7c6ff0] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(108,92,231,0.3),0_6px_24px_rgba(108,92,231,0.4)]"
+              className="inline-flex items-center px-[18px] py-2 text-sm font-semibold text-white bg-accent rounded-xl no-underline transition-all duration-200 shadow-[0_0_24px_rgba(192,68,238,0.3),0_4px_16px_rgba(192,68,238,0.3)] hover:bg-[#d670f5] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(192,68,238,0.3),0_6px_24px_rgba(192,68,238,0.4)]"
             >
               Get Started
             </a>

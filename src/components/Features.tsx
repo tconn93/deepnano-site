@@ -64,7 +64,7 @@ export default function Features() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {FEATURES.map((feature) => (
             <ScrollReveal key={feature.title}>
-              <div className="group relative bg-bg-card border border-border rounded-[20px] p-8 transition-all duration-200 hover:bg-bg-card-hover hover:border-border-light hover:-translate-y-0.5 hover:shadow-[0_1px_2px_rgba(0,0,0,0.4),0_4px_24px_rgba(0,0,0,0.3),0_0_40px_rgba(108,92,231,0.08)]">
+              <div className="group relative bg-bg-card border border-border rounded-[20px] p-8 transition-all duration-200 hover:bg-bg-card-hover hover:border-border-light hover:-translate-y-0.5 hover:shadow-[0_1px_2px_rgba(0,0,0,0.4),0_4px_24px_rgba(0,0,0,0.3),0_0_40px_rgba(192,68,238,0.08)]">
                 {/* Top shimmer line on hover */}
                 <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                 <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-5 bg-accent/10 border border-accent/15">

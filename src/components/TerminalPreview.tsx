@@ -1,6 +1,6 @@
 export default function TerminalPreview() {
   return (
-    <div className="max-w-[800px] mx-auto mt-20 bg-[#0d0d1f] border border-border rounded-[20px] overflow-hidden shadow-[0_1px_2px_rgba(0,0,0,0.4),0_4px_24px_rgba(0,0,0,0.3),0_0_60px_rgba(108,92,231,0.15),0_0_120px_rgba(0,212,255,0.08)] animate-fade-in-up">
+    <div className="max-w-[800px] mx-auto mt-20 bg-[#0d0d24] border border-border rounded-[20px] overflow-hidden shadow-[0_1px_2px_rgba(0,0,0,0.4),0_4px_24px_rgba(0,0,0,0.3),0_0_60px_rgba(192,68,238,0.15),0_0_120px_rgba(94,179,231,0.08)] animate-fade-in-up">
       <div className="flex items-center gap-2 px-[18px] py-3.5 bg-white/[0.02] border-b border-border">
         <span className="w-3 h-3 rounded-full bg-[#ff5f57]" />
         <span className="w-3 h-3 rounded-full bg-[#febc2e]" />

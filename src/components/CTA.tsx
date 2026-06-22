@@ -18,13 +18,13 @@ export default function CTA() {
           <div className="flex gap-4 justify-center flex-wrap">
             <a
               href="https://dash.deepnano.dev"
-              className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-accent rounded-[16px] no-underline transition-all duration-200 shadow-[0_0_24px_rgba(108,92,231,0.3),0_4px_16px_rgba(108,92,231,0.3)] hover:bg-[#7c6ff0] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(108,92,231,0.3),0_6px_24px_rgba(108,92,231,0.4)]"
+              className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-accent rounded-[16px] no-underline transition-all duration-200 shadow-[0_0_24px_rgba(192,68,238,0.3),0_4px_16px_rgba(192,68,238,0.3)] hover:bg-[#d670f5] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(192,68,238,0.3),0_6px_24px_rgba(192,68,238,0.4)]"
             >
               Start Building
             </a>
             <a
               href="mailto:tyler@tyler.ag"
-              className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-text-primary border border-border-light rounded-[16px] bg-transparent no-underline transition-all duration-200 hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(108,92,231,0.1)]"
+              className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-text-primary border border-border-light rounded-[16px] bg-transparent no-underline transition-all duration-200 hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(192,68,238,0.1)]"
             >
               Talk to Sales
             </a>

@@ -84,9 +84,7 @@ export default function PrivacyPolicy() {
       <header className="border-b border-border">
         <div className="max-w-[760px] mx-auto px-6 py-6 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2.5 font-extrabold text-xl tracking-tight text-text-primary no-underline">
-            <span className="w-[34px] h-[34px] rounded-[9px] bg-gradient-to-br from-accent via-cyan to-green flex items-center justify-center text-sm shadow-[0_0_20px_rgba(108,92,231,0.3)]">
-              ⚛
-            </span>
+            <img src="/deepnano-logo.jpg" alt="DeepNano" className="w-[34px] h-[34px] rounded-[9px] shadow-[0_0_20px_rgba(192,68,238,0.3)]" />
             DeepNano
           </a>
         </div>

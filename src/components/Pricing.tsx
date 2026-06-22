@@ -101,7 +101,7 @@ export default function Pricing() {
               <div
                 className={`relative bg-bg-card border rounded-[28px] p-10 md:p-8 transition-all duration-200 h-full flex flex-col ${
                   tier.featured
-                    ? 'border-accent shadow-[0_0_40px_rgba(108,92,231,0.12)] bg-bg-card-hover'
+                    ? 'border-accent shadow-[0_0_40px_rgba(192,68,238,0.12)] bg-bg-card-hover'
                     : 'border-border'
                 }`}
               >
@@ -142,8 +142,8 @@ export default function Pricing() {
                   href={tier.href}
                   className={`inline-flex items-center justify-center w-full gap-2 px-6 py-3 rounded-xl font-semibold text-sm no-underline transition-all duration-200 ${
                     tier.featured
-                      ? 'bg-accent text-white shadow-[0_0_24px_rgba(108,92,231,0.3),0_4px_16px_rgba(108,92,231,0.3)] hover:bg-[#7c6ff0] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(108,92,231,0.3),0_6px_24px_rgba(108,92,231,0.4)]'
-                      : 'text-text-primary border border-border-light bg-transparent hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(108,92,231,0.1)]'
+                      ? 'bg-accent text-white shadow-[0_0_24px_rgba(192,68,238,0.3),0_4px_16px_rgba(192,68,238,0.3)] hover:bg-[#d670f5] hover:-translate-y-px hover:shadow-[0_0_36px_rgba(192,68,238,0.3),0_6px_24px_rgba(192,68,238,0.4)]'
+                      : 'text-text-primary border border-border-light bg-transparent hover:border-accent-light hover:bg-accent/8 hover:shadow-[0_0_20px_rgba(192,68,238,0.1)]'
                   }`}
                 >
                   {tier.cta}

@@ -3,9 +3,7 @@ export default function Footer() {
     <footer className="relative z-10 border-t border-border py-12">
       <div className="max-w-[1200px] mx-auto px-6 flex justify-between items-center flex-wrap gap-5 max-sm:flex-col max-sm:text-center">
         <div className="flex items-center gap-2.5 text-sm text-text-muted">
-          <span className="w-6 h-6 rounded-md bg-gradient-to-br from-accent via-cyan to-green flex items-center justify-center text-[0.7rem]">
-            ⚛
-          </span>
+          <img src="/deepnano-logo.jpg" alt="DeepNano" className="w-6 h-6 rounded-md" />
           &copy; 2026 DeepNano from <a href='https://tyler.ag'>Tyler's AI Company.</a> All rights reserved.
         </div>
         <div className="flex gap-6">
