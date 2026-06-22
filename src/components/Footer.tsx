@@ -6,7 +6,7 @@ export default function Footer() {
           <span className="w-6 h-6 rounded-md bg-gradient-to-br from-accent via-cyan to-green flex items-center justify-center text-[0.7rem]">
             ⚛
           </span>
-          &copy; 2026 DeepNano from <a href='https://tyler.ag'>Tyler's AI Company</a>. All rights reserved.
+          &copy; 2026 DeepNano from <a href='https://tyler.ag'>Tyler's AI Company.</a> All rights reserved.
         </div>
         <div className="flex gap-6">
           <a href="https://dash.deepnano.dev" className="text-sm text-text-muted no-underline transition-colors duration-200 hover:text-text-primary">
