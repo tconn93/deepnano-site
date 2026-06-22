@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+.omc/
+
+dist-ssr
+
+# Local environment variables
+.env
+.env*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vite-specific
+.vite/
+
+# Optional: coverage reports, tests, etc.
+coverage
+.nyc_output
+
+# Optional: package lock files if you prefer to regenerate them
+# (usually committed, so leave uncommented unless you have a reason)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
